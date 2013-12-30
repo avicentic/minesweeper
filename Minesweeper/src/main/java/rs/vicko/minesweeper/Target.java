@@ -46,6 +46,11 @@ public class Target
 		return flags;
 	}
 
+	public void setFlags(List<Flag> flags)
+	{
+		this.flags = flags;
+	}
+
 	public Flag getFlag(int x, int y)
 	{
 		for (Flag flag : flags)

@@ -62,7 +62,7 @@ public class MinesweeperImpl implements Minesweeper
 				{
 					for (int jj = j - 1; jj <= j + 1; jj++)
 					{
-						if (ii != jj && target.getFlag(ii, jj) != null)
+						if ((i != ii || j != jj) && target.getFlag(ii, jj) != null)
 						{
 							neighbors++;
 						}
